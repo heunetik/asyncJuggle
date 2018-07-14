@@ -10,7 +10,6 @@ https.get(args[2], callbackFactory(2));
 
 function callbackFactory(pos) {
     return function cb(res) {
-        console.log(pos);
         res.pipe(BufferList((err, data) => {
             if(err) {
                 console.error("error");
