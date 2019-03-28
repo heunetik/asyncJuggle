@@ -1,0 +1,29 @@
+{
+  "name": "asyncjuggle",
+  "version": "1.0.0",
+  "description": "Node.js Async juggling w/o the \"async\" package",
+  "main": "juggle.js",
+  "dependencies": {
+    "bl": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heunetik/asyncJuggle.git"
+  },
+  "keywords": [
+    "async",
+    "nodejs",
+    "node",
+    "juggle"
+  ],
+  "author": "heunetik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heunetik/asyncJuggle/issues"
+  },
+  "homepage": "https://github.com/heunetik/asyncJuggle#readme"
+}
